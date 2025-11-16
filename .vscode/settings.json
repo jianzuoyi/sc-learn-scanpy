@@ -1,0 +1,39 @@
+{
+    // Python 语言服务器配置
+    "python.languageServer": "None",
+    "python.defaultInterpreterPath": "/Users/mac/apps/python/bin/python3",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    
+    // 启用参数提示（Signature Help）
+    "editor.parameterHints.enabled": true,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showClasses": true,
+    
+    // Jupyter Notebook 配置
+    "jupyter.askForKernelRestart": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    
+    // Python 编辑器设置
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    
+    // 启用 IntelliSense
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.diagnosticMode": "workspace"
+}
+
+
+
+
